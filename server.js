@@ -6,7 +6,7 @@ const Workout = require('./models/workout');
 let mongoose = require('mongoose');
 
 mongoose.connect(
-    process.env.MONGODB_URI || `mongodb://${process.env.HEROKU_USERNAME}:${process.env.HEROKU_PASSWORD}@ds247852.mlab.com:47852/heroku_434w7sn2`,
+    process.env.MONGODB_URI || `mongodb://braydon-nelson:4HRA8xEwT9d!9NB@ds247852.mlab.com:47852/heroku_434w7sn2`,
     {
         useNewUrlParser: true,
         useFindAndModify: false

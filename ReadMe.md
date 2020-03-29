@@ -70,4 +70,4 @@ Start Tracking
 
 ## Live Application
 
-Link to live application - 
+Link to live application - https://uofu-15-workout-wracker-bn.herokuapp.com/
