@@ -62,6 +62,8 @@ function renderWorkoutSummary(summary) {
     const strong = document.createElement("strong");
 
     strong.textContent = workoutKeyMap[key];
+    // console.log(summary);
+
     const textNode = document.createTextNode(`: ${summary[key]}`);
 
     p.appendChild(strong);
